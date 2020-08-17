@@ -1,0 +1,218 @@
+
+
+body {
+  background-image: url('https://i.postimg.cc/Gp2b6941/FONDO.png');
+  background-color: #660000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#encabezado {
+  height: 220px;
+  width: 600px;
+}
+
+#carta {
+  height: 600px;
+  width: 900px;
+  background-image: url('./MARCO.png');
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
+#btnlocal {
+  background-image:url(BTNLOCAL.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-position: center;
+  background-size: cover;
+  width: 190px;
+  height: 50px;
+}
+
+#btndomicilio {
+  background-image:url(BTNDOMICILIO.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 50px;
+}
+
+#btncuenta{
+    background-image:url(BTNCUENTA.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 50px;
+  
+}
+
+
+#btnmenu{
+  background-image:url(BTNMENU.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-position: center;
+  background-size: cover;
+  width: 170px;
+  height: 50px;
+
+}
+
+@media screen and (max-width:360px) {
+
+  body {
+    background-image: url('https://i.postimg.cc/Gp2b6941/FONDO.png');
+    background-color: #660000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #encabezado {
+    height: 220px;
+    width: 600px;
+  }
+
+  #carta {
+    height: 600px;
+    width: 900px;
+    background-image: url('./MARCO.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  
+  #btnlocal {
+    background-image:url(BTNLOCAL.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-position: center;
+    background-size: cover;
+    width: 190px;
+    height: 50px;
+  }
+
+  #btndomicilio {
+    background-image:url(BTNDOMICILIO.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 50px;
+  }
+
+  #btncuenta{
+      background-image:url(BTNCUENTA.png);
+      background-repeat:no-repeat;
+      background-position:center;
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+      height: 50px;
+    
+  }
+
+
+  #btnmenu{
+    background-image:url(BTNMENU.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-position: center;
+    background-size: cover;
+    width: 170px;
+    height: 50px;
+  
+}
+
+
+}
+
+@media screen and (max-width:411px) {
+
+  body {
+    background-image: url('https://i.postimg.cc/Gp2b6941/FONDO.png');
+    background-color: #660000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #encabezado {
+    height: 220px;
+    width: 600px;
+  }
+
+  #carta {
+    height: 600px;
+    width: 900px;
+    background-image: url('./MARCO.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  
+  #btnlocal {
+    background-image:url(BTNLOCAL.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-position: center;
+    background-size: cover;
+    width: 190px;
+    height: 50px;
+  }
+
+  #btndomicilio {
+    background-image:url(BTNDOMICILIO.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 50px;
+  }
+
+  #btncuenta{
+      background-image:url(BTNCUENTA.png);
+      background-repeat:no-repeat;
+      background-position:center;
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+      height: 50px;
+    
+  }
+
+
+  #btnmenu{
+    background-image:url(BTNMENU.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-position: center;
+    background-size: cover;
+    width: 170px;
+    height: 50px;
+  
+}
+  }
+
+
+
+
+

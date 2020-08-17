@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('https://tacos10.com/storage/2018/12/tacos-mexicanos-de-carne.jpg');
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;

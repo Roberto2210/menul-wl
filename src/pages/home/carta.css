@@ -1,0 +1,17 @@
+body {
+    /* background-image: url('https://i.postimg.cc/W4m21TN9/body.png'); */
+    background-repeat: no-repeat;
+    display: flexbox;
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+
+@media screen and (max-width:411px) {
+
+    #encabezado {
+        width: 411px;
+    }
+
+}

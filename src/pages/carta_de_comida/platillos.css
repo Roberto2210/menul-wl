@@ -1,0 +1,388 @@
+body {
+    background-image: none;
+    background-repeat: no-repeat;
+    display: flexbox;
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+
+.body {
+  display: flex;
+  align-items: center;
+}
+
+.bienvenida {
+  margin: 0px;
+  width: 100%;
+}
+
+#nombre-comida {
+  text-align: center;
+  justify-content: center;
+  padding-left: 0px;
+  color: white;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+#img-comida {
+  width: 60%;
+}
+
+
+img {
+    width: 45%;
+    margin-top: 1px;
+    margin-left: 50px;
+    margin-right: 70px;
+    display: block;
+    justify-content: flex-end;
+
+
+ 
+    
+}
+
+.botones-comida {
+  margin-top: 65px;
+  margin-left:15px;
+  margin-right: 70px;
+  padding-top: 35px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-image: url('https://i.postimg.cc/Jzgh8kfR/FONDO-MADERA.jpg');
+   border-radius: 20px;
+
+}
+
+
+
+button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 1.0rem;;
+    border:1pX solid #9b9b9b21;
+   background-image: url('./boton.png');
+   background-color: transparent;
+   background-position: center;
+   background-size: cover;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif;
+    color:white;
+  border: 0px;
+   /* border-radius: 10px; */
+}
+
+#boton-link {
+  color: white;
+  text-decoration: none
+}
+
+#calificar {
+  padding: 0px;
+  background-color: transparent;
+  background-image: none;
+  display: inline;
+}
+
+#icon-mns {
+  width: 20%;
+  margin: 0px;
+  margin-right: 0px;
+}
+
+#region {
+    background-color: white;
+     width: 25%;
+    border-radius: 20px;
+    padding: 10px; 
+    text-align: center;
+    bottom: 2px;
+    margin-top: 20px;
+}
+
+button:hover {
+  
+    color: black;
+    cursor: pointer;
+
+  }
+
+  h3 {
+      font-size: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: wheat;
+      align-items: flex-end;
+      justify-content: flex-end;
+  }
+  
+
+
+  .final {
+ 
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+    
+}
+
+.input-xd {
+  display: flex;
+
+}
+
+.boton{
+  
+ width: 50px;
+}
+
+#input-ordenar {
+  width: 35%;
+
+}
+
+@media screen and (max-width:360px) {
+
+  
+
+  body {
+    background-image: url('https://tacos10.com/storage/2018/12/tacos-mexicanos-de-carne.jpg');
+    background-color: #660000;
+    background-repeat: no-repeat;
+  
+    background-position: center;
+    background-size: cover;
+  }
+
+
+.body {
+  display: block;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+  .bienvenida {
+    margin: 1px 50px 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  h2 {
+   
+    color: white;
+  }
+  
+
+  img {
+    width: 50%;
+    margin-top: 1px;
+    margin-left: 45px;
+    margin-right: 10px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+
+.botones {
+  margin-top: 10px;
+ margin-left: 20PX;
+ margin-right: 10px;
+  padding-top: 35px;
+  margin-bottom: 35px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('https://image.freepik.com/free-photo/old-wooden-texture-background-vintage_55716-1138.jpg');
+   border-radius: 20px;
+
+}
+
+
+
+button {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 1.0rem;;
+    border:1pX solid #9b9b9b21;
+   background-image: url('./boton.png');
+   background-color: transparent;
+   background-position: center;
+   background-size: cover;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif;
+    color:white;
+  border: 0px;
+   /* border-radius: 10px; */
+}
+
+#calificar {
+  padding: 0px;
+  background-color: transparent;
+  background-image: none;
+  display: inline;
+}
+
+#icon-mns {
+  width: 20%;
+  margin: 0px;
+  margin-right: 0px;
+}
+
+#region {
+    background-color: white;
+     width: 25%;
+    border-radius: 20px;
+    padding: 10px; 
+    text-align: center;
+    bottom: 2px;
+    margin-top: 20px;
+}
+
+}
+
+
+@media screen and (max-width:411px) {
+
+  body {
+    background-image: url('https://tacos10.com/storage/2018/12/tacos-mexicanos-de-carne.jpg');
+    background-color: #660000;
+    background-repeat: no-repeat;
+  
+    background-position: center;
+    background-size: cover;
+  }
+
+
+.body {
+  display: block;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+  .bienvenida {
+    margin: 1px 55px 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  h2 {
+   
+    color: white;
+  }
+  
+
+  img {
+    width: 50%;
+    margin-top: 1px;
+    margin-left: 45px;
+    margin-right: 10px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+
+.botones {
+  margin-top: 10px;
+ margin-left: 20PX;
+ margin-right: 10px;
+  padding-top: 35px;
+  margin-bottom: 35px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('https://image.freepik.com/free-photo/old-wooden-texture-background-vintage_55716-1138.jpg');
+   border-radius: 20px;
+
+}
+
+
+
+button {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 1.0rem;;
+    border:1pX solid #9b9b9b21;
+   background-image: url('./boton.png');
+   background-color: transparent;
+   background-position: center;
+   background-size: cover;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif;
+    color:white;
+  border: 0px;
+   /* border-radius: 10px; */
+}
+
+#calificar {
+  padding: 0px;
+  background-color: transparent;
+  background-image: none;
+  display: inline;
+}
+
+#icon-mns {
+  width: 20%;
+  margin: 0px;
+  margin-right: 0px;
+}
+
+#region {
+    background-color: white;
+     width: 25%;
+    border-radius: 20px;
+    padding: 10px; 
+    text-align: center;
+    bottom: 2px;
+    margin-top: 20px;
+}
+
+
+}
+

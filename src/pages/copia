@@ -1,0 +1,275 @@
+      <div className="container">
+                {/* APPLICATION */}
+                <div id="App" className="row pt-5">
+                    <div className="col-md-4">
+                        <div className="card">
+                            <div className="card-header">
+                                <h4>Orden</h4>
+                            </div>
+                           
+                            <section className="registro">
+        <form className="m-5" onSubmit={onSubmitHandler} >
+            <div className="form-group ">
+                <label>Nombre</label>
+                <input type="text" id="input-ordenar" className="form-control" id="Nombre" onChange={onChangeInput} value={Nombre} />
+            </div>
+
+
+            <div className="form-group ">
+                <label>Numero telefonico:</label>
+                <input type="text" id="input-ordenar" className="form-control" id="Nombre" onChange={onChangeInput} value={Nombre} />
+            </div>
+
+            <div className="form-group ">
+                <label>Direccion:</label>
+                <input type="text" id="input-ordenar" className="form-control" id="Nombre" onChange={onChangeInput} value={Nombre} />
+            </div>
+
+            <div className="form-group ">
+                <label>Referencia</label>
+                <input type="text" id="input-ordenar" className="form-control" id="Nombre" onChange={onChangeInput} value={Nombre} />
+            </div>
+
+
+
+            <h3 id="subtitulo-comida">Tacos</h3>
+
+            <div className="form-group row d-flex bd-highlight mb-3">
+                <label  className="p-2 bd-highlight">Taco de Res</label>
+                <input type="number" className="form-control ml-auto p-2 bd-highlight boton" id="Taco_de_res" onChange={onChangeInput} value={Taco_de_res} />
+            </div>
+
+            
+        
+            <div className="form-group row d-flex bd-highlight mb-3">
+
+                <label className="p-2 bd-highlight">Tacos de Pastor</label>
+                <input type="number" className="form-control ml-auto p-2 bd-highlight boton" id="Taco_de_pastor" onChange={onChangeInput} value={Taco_de_pastor} />
+            </div>
+
+            <div className="form-group row d-flex bd-highlight mb-3 ">
+                <label className="p-2 bd-highlight" >Tacos de Puerco</label>
+                <input type="number" className="form-control ml-auto p-2 bd-highlight boton" id="Taco_de_puerco" onChange={onChangeInput} value={Taco_de_puerco} />
+            </div>
+
+            <div className="form-group row d-fle  d-flex bd-highlight mb-3">
+                <label className="p-2 bd-highlight">Tacos de Tripa</label>
+                <input type="number" className="form-control ml-auto p-2 bd-highlight boton" id="Taco_de_tripa" onChange={onChangeInput} value= {Taco_de_tripa}/>
+            </div>
+
+            <div className="form-check  row d-flex bd-highlight mb-3">
+                <input className="form-check-input" type="checkbox" defaultValue="false" id="defaultCheck1"  value={Salsa}/>
+                 <label className="form-check-label" htmlFor="defaultCheck1">
+                       Salsa
+                 </label>
+           </div>     
+
+           <div className="form-check  row d-flex bd-highlight mb-3">
+                <input className="form-check-input" type="checkbox" defaultValue id="defaultCheck1" />
+                 <label className="form-check-label" htmlFor="defaultCheck1">
+                       Cebolla
+                 </label>
+           </div>  
+
+           <div className="form-check  row d-flex bd-highlight mb-3">
+                <input className="form-check-input" type="checkbox" defaultValue id="defaultCheck1" />
+                 <label className="form-check-label" htmlFor="defaultCheck1">
+                       Cilantro
+                 </label>
+           </div>  
+
+           <div className="form-check  row d-flex bd-highlight mb-3">
+                <input className="form-check-input" type="checkbox" defaultValue="false" id="defaultCheck1" />
+                 <label className="form-check-label" htmlFor="defaultCheck1">
+                       Naturales
+                 </label>
+           </div>  
+
+
+           <h3 id="subtitulo-comida">Tortas</h3>
+
+<div className="form-group row d-flex bd-highlight mb-3">
+    <label  className="p-2 bd-highlight">Torta de Res</label>
+    <input type="number" className="form-control ml-auto p-2 bd-highlight boton" id="Taco_de_res" onChange={onChangeInput} value={Taco_de_res} />
+</div>
+
+<div className="form-group row d-flex bd-highlight mb-3">
+    <label className="p-2 bd-highlight">Torta de Pastor</label>
+    <input type="number" className="form-control ml-auto p-2 bd-highlight boton" id="Taco_de_pastor" onChange={onChangeInput} value={Taco_de_pastor} />
+</div>
+
+<div className="form-group row d-flex bd-highlight mb-3 ">
+    <label className="p-2 bd-highlight" >Torta de Puerco</label>
+    <input type="number" className="form-control ml-auto p-2 bd-highlight boton" id="Taco_de_puerco" onChange={onChangeInput} value={Taco_de_puerco} />
+</div>
+
+<div className="form-group row d-fle  d-flex bd-highlight mb-3">
+    <label className="p-2 bd-highlight">Torta de Tripa</label>
+    <input type="number" className="form-control ml-auto p-2 bd-highlight boton" id="Taco_de_tripa" onChange={onChangeInput} value= {Taco_de_tripa}/>
+</div>
+
+<div className="form-check  row d-flex bd-highlight mb-3">
+    <input className="form-check-input" type="checkbox" defaultValue="false" id="defaultCheck1"  value={Salsa}/>
+     <label className="form-check-label" htmlFor="defaultCheck1">
+           Salsa
+     </label>
+</div>     
+
+<div className="form-check  row d-flex bd-highlight mb-3">
+    <input className="form-check-input" type="checkbox" defaultValue id="defaultCheck1" />
+     <label className="form-check-label" htmlFor="defaultCheck1">
+           Cebolla
+     </label>
+</div>  
+
+<div className="form-check  row d-flex bd-highlight mb-3">
+    <input className="form-check-input" type="checkbox" defaultValue id="defaultCheck1" />
+     <label className="form-check-label" htmlFor="defaultCheck1">
+           Cilantro
+     </label>
+</div>  
+
+<div className="form-check  row d-flex bd-highlight mb-3">
+    <input className="form-check-input" type="checkbox" defaultValue="false" id="defaultCheck1" />
+     <label className="form-check-label" htmlFor="defaultCheck1">
+           Naturales
+     </label>
+</div>  
+
+<h3 id="subtitulo-comida">Bebidas</h3>
+
+<select class="form-control">
+  <option>Bebidas</option>
+</select>
+
+<div className="form-group ">
+                <label>Obserbaciones</label>
+                <input type="text" id="input-ordenar" className="form-control" id="Nombre" onChange={onChangeInput} value={Nombre} />
+            </div>
+
+            <button className="btn btn-form" type="submit">Subir</button>
+
+        </form>
+
+
+        </section>
+
+        
+                                 
+                        </div>
+                    </div>
+
+                    <div className="container col-md-4">
+            <div className="card text-center mb-4">
+        <div className="card-body ">
+    <strong>Nombre</strong>:<p>{Nombre}</p>
+    <strong>Mesa</strong>:<p>{Mesa}</p>
+          <br />
+          <h4>Tacos</h4>
+          <strong>Tacos de Pastor</strong>:<p>{Taco_de_res}</p>
+          <br />
+          <strong>Tacos de Res</strong>:<p>{Taco_de_pastor}</p>
+          <br />
+          <strong>Tacos de Puerco</strong>:<p>{Taco_de_puerco}</p>
+          <br />
+          <strong>Tacos de Tripa</strong>:<p>{Taco_de_tripa}</p>
+          <br/>    
+            <strong>Tacos de Tripa</strong>:<p>{Salsa}</p>
+          <br/>
+          <strong>Tacos de Tripa</strong>:<p>${totalcuenta}</p>
+          <br/>
+      
+          <a href="#" className="btn btn-danger" name="delete">Delete</a>
+        </div>
+      </div>
+      </div>
+                    <div id="product-list" className="col-md-8" />
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            function Home() {
+
+  return (
+
+    <React.Fragment>
+      
+
+      <div className="body">
+
+
+        <di className="bienvenida">
+        <img id="logo"  src={tacos}></img>
+          <img id="logo" src={logo}></img>
+
+        </di>
+
+        <div id="btn-tabla" className="botones">
+
+          <button>
+            <Link to='/comida' id="boton-link" >
+              LOCAL
+          </Link>
+
+
+          </button>
+
+          <button >
+            <Link to="/domicilio" id="boton-link">
+              DOMICILIO
+
+            </Link>
+          </button>
+
+
+          <button>
+            <Link to='/comida' id="boton-link" >
+              CUENTA
+          </Link>
+          </button>
+
+
+
+          <button id="calificar"
+            src={mensaje}>
+            Calificanos</button>
+
+          <select name="transporte" id="region">
+
+            <option>Poza Rica Ver.</option>
+
+            <option>Avión</option>
+
+            <option>Tren</option>
+
+          </select>
+       
+
+        </div>
+
+
+
+      </div>
+
+    </React.Fragment>
+
+
+
+
+
+
+
+  );
+
+}

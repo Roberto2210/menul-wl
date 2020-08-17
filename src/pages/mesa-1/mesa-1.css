@@ -1,0 +1,38 @@
+#icon-menu{
+  width: 5px;
+}
+
+#icon {
+  width: 25%;
+}
+#mesa-body {
+
+    background-image: url('https://i.postimg.cc/QCYcVSJS/FONDO-MADERA.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+
+#logo-domicilio {
+  margin-left: 100px;
+}
+  
+
+#pedidos {
+  margin-left: 30px;
+}
+
+#agregar {
+  margin-left: 28px;
+}
+
+#subtitulo-comida-bebidas {
+  color: white;
+  font-size: 20px;
+  font-weight: bold
+}
+
+button {
+    background-image: none;
+}
